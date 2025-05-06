@@ -1,0 +1,42 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: rgb(112, 106, 106);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+  
+nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+}
+  
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+    padding-right: 520px;
+}
+
+/* Basic CSS for the form elements */
+
+body {
+    background-image:'paris.jpg' ; 
+}
