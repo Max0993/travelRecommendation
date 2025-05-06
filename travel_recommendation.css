@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 nav {
-    background-color: rgb(112, 106, 106);
+    background-color: rgb(58, 56, 56);
     padding: 20px;
     display: flex;
     align-items: center;
@@ -35,8 +35,22 @@ h1 {
     padding-right: 520px;
 }
 
+h2 {
+   margin-top: 10%;
+   padding-left: 10%;
+   color: white; 
+}
+
+p {
+    margin-top: 10%;
+   padding-left: 10%;
+   color: white;
+}
 /* Basic CSS for the form elements */
 
 body {
-    background-image:'paris.jpg' ; 
+    background-image: url('tour_eiffel.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
