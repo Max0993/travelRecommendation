@@ -5,31 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agence-travel</title>
     <link rel="stylesheet" href="travel_recommendation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
-    <nav>
-    <a href="/">
-        <img src="airplan1.png"  width="45" height="45">
-    </a>
-        <h1>Agence-Travel</h1>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><input type="search" id="searchbar" placeholder="Enter a destination or Keyword"></li>
-            <li><button type="text" id="searchbtn">search</button></li>
-            <li><button type="text" id="reset">Delete</button></li>
-        </ul>
-    </nav>
+    <nav class="navbar">
+    <!-- Left: Logo + Name -->
+    <div class="logo">
+      <img src="airplan1.png" alt="Logo" />
+      <span><strong>Agence-Travel</strong></span>
+    </div>
 
-    <h2>EXPLORE <br>DREAM <br>DESTINATION</h2>
-    <p>It encourages exploration of unfamiliar <br>
-        territories, embracing diverse cultures and <br>
-         landscapes while pursuing the desired <br>
-         destination that captive the heart and <br>
-          ignites a sence of wonder
-    </p>
-   <button type="button" id="Booknow">Book Now</button>
-    
+    <!-- Center: Navigation links -->
+    <div class="center-links">
+      <a href="#Home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#Contact">Contact Us</a>
+    </div>
+
+    <!-- Right: Search bar -->
+    <div class="search">
+      <input type="text" placeholder="Enter a destination or keyword">
+      <button>Search</button>
+      <button>Delete</button>
+    </div>
+  </nav>
+    <div class="intro">
+        <h2>EXPLORE <br>DREAM <br>DESTINATION</h2>
+        <p>It encourages exploration of unfamiliar <br>
+            territories, embracing diverse cultures and <br>
+            landscapes while pursuing the desired <br>
+            destination that captive the heart and <br>
+            ignites a sence of wonder
+        </p>
+        <button type="button" id="Booknow">Book Now</button>
+    </div>
+
+    <div class="social-icons-column">
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>  
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+      
+
 </body>
 </html>

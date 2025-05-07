@@ -1,51 +1,66 @@
-/* Basic CSS for the navigation bar */
+* {
+      box-sizing: border-box;
+    }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-nav {
-    background-color: rgb(58, 56, 56);
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-  
-nav ul {
-    list-style-type: none;
-    /* padding: 0; */
-}
-  
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-  
-nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
 
-h1 {
-    color: white;
-    padding-right: 520px;
-}
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #1e293b;
+      color: white;
+    }
 
-h2 {
-   margin-top: 10%;
-   padding-left: 10%;
-   color: white; 
-}
+    .navbar .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
 
-p {
-    margin-top: 10%;
-   padding-left: 10%;
-   color: white;
-}
+    .navbar .logo img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .navbar .center-links {
+      display: flex;
+      gap: 30px;
+      font-size: 16px;
+    }
+
+    .navbar .center-links a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .navbar .search {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .navbar .search input {
+      padding: 5px 20px;
+      border-radius: 4px;
+      border: none;
+    }
+
+    .navbar .search button {
+      padding: 6px 12px;
+      background-color: rgb(6, 144, 120);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+
+
 /* Basic CSS for the form elements */
 
 body {
@@ -54,3 +69,44 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.intro {
+    margin-top: 12%;
+    color: white;
+    padding-left: 10%;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+button {
+    background-color: rgb(6, 144, 120);
+    padding: 6px 12px;
+    color: white;
+     border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+  .social-icons-row a,
+  .social-icons-column a {
+    font-size: 24px;
+    color: whitesmoke;
+    margin: 01px;
+    text-decoration: none;
+  }
+
+  .social-icons-row {
+    display: flex;
+    gap: 15px;
+  }
+
+  .social-icons-column {
+    display: flex;
+    flex-direction: column;
+    gap: -15px;
+  }
+
+ 
