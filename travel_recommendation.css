@@ -141,4 +141,30 @@ h3 {
   .navbar .center-links_1 a {
     text-decoration: none;
     color: white;
-  }
+}
+
+/*Contact.css*/
+body{
+    text-align: center;
+}
+/* Un peu de style de base à des fins de démonstration */
+#contactForm {
+  max-width: 400px;
+  margin: 0 auto;
+}
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+}
+#contactForm button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#contactForm button:hover {
+  background-color: #0056b3;
+}
