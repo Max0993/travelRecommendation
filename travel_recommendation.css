@@ -144,9 +144,10 @@ h3 {
 }
 
 /*Contact.css*/
-body{
+/*body{
     text-align: center;
-}
+}*/
+
 /* Un peu de style de base à des fins de démonstration */
 #contactForm {
   max-width: 400px;
