@@ -25,7 +25,7 @@ function searchCondition() {
           resultDiv.innerHTML += `<p><strong>${country.name}</strong></p>`;
           country.cities.forEach(city => {
             resultDiv.innerHTML += `
-              <div>
+              <div class="card">
                 <h4>${city.name}</h4>
                 <img src="${city.imageUrl}" alt="${city.name}" style="max-width:200px;">
                 <p>${city.description}</p>
@@ -44,7 +44,7 @@ function searchCondition() {
         resultDiv.innerHTML += `<h2>Matching Temples</h2>`;
         matchedTemples.forEach(temple => {
           resultDiv.innerHTML += `
-            <div>
+            <div class="card">
               <h4>${temple.name}</h4>
               <img src="${temple.imageUrl}" alt="${temple.name}" style="max-width:200px;">
               <p>${temple.description}</p>
@@ -62,7 +62,7 @@ function searchCondition() {
         resultDiv.innerHTML += `<h2>Matching Beaches</h2>`;
         matchedBeaches.forEach(beach => {
           resultDiv.innerHTML += `
-            <div>
+            <div class="card">
               <h4>${beach.name}</h4>
               <img src="${beach.imageUrl}" alt="${beach.name}" style="max-width:200px;">
               <p>${beach.description}</p>
