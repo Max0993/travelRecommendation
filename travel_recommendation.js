@@ -22,14 +22,15 @@ function searchCondition() {
         resultsFound = true;
         resultDiv.innerHTML += `<h2></h2>`;
         matchedCountries.forEach(country => {
-          resultDiv.innerHTML += `<p><strong>${country.name}</strong></p>`;
+          
           country.cities.forEach(city => {
             resultDiv.innerHTML += `
               <div class="card">
                 <img src="${city.imageUrl}" alt="${city.name}" style="max-width:400px;">
                 <div class="cardd">
-                <h4>${city.name}</h4>
-                <p>${city.description}</p>
+                    <h4>${city.name}</h4>
+                    <p>${city.description}</p>
+                    <button>Visit</button>
                 </div>
               </div>
             `;

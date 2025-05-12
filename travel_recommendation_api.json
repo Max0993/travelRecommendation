@@ -7,12 +7,12 @@
           {
             "name": "Sydney, Australia",
             "imageUrl": "sydney.png",
-            "description": "A vibrant city known for its\n iconic landmarks like the \nSydney Opera House and Sydney\n Harbour Bridge."
+            "description": "A vibrant city known for its iconic landmarks\n like the Sydney Opera House and Sydney\n Harbour Bridge."
           },
           {
             "name": "Melbourne, Australia",
             "imageUrl": "Melbourne.png",
-            "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+            "description": "A cultural hub famous for its art, food, and\n diverse neighborhoods."
           }
           
         ]
@@ -40,12 +40,12 @@
           {
             "name": "Rio de Janeiro, Brazil",
             "imageUrl": "rio.png",
-            "description": "A lively city known for its\n stunning beaches, vibrant\n carnival celebrations, and\n iconic landmarks."
+            "description": "A lively city known for its stunning beaches,\n vibrant carnival celebrations, and iconic landmarks."
           },
           {
             "name": "São Paulo, Brazil",
             "imageUrl": "Sao_paulo.png",
-            "description": "The financial hub with\n diverse culture, arts, and\n a vibrant nightlife."
+            "description": "The financial hub with diverse culture, arts, and\n a vibrant nightlife."
           }
         ]
       }
