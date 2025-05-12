@@ -20,7 +20,7 @@ function searchCondition() {
       );
       if (matchedCountries.length > 0) {
         resultsFound = true;
-        resultDiv.innerHTML += `<h2></h2>`;
+        resultDiv.innerHTML += ``;
         matchedCountries.forEach(country => {
           
           country.cities.forEach(city => {
