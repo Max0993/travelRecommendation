@@ -20,15 +20,17 @@ function searchCondition() {
       );
       if (matchedCountries.length > 0) {
         resultsFound = true;
-        resultDiv.innerHTML += `<h2>Matching Countries</h2>`;
+        resultDiv.innerHTML += `<h2></h2>`;
         matchedCountries.forEach(country => {
           resultDiv.innerHTML += `<p><strong>${country.name}</strong></p>`;
           country.cities.forEach(city => {
             resultDiv.innerHTML += `
               <div class="card">
+                <img src="${city.imageUrl}" alt="${city.name}" style="max-width:400px;">
+                <div class="cardd">
                 <h4>${city.name}</h4>
-                <img src="${city.imageUrl}" alt="${city.name}" style="max-width:200px;">
                 <p>${city.description}</p>
+                </div>
               </div>
             `;
           });
