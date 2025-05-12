@@ -59,7 +59,7 @@ function searchCondition() {
       );
       if (matchedBeaches.length > 0) {
         resultsFound = true;
-        resultDiv.innerHTML += `<h2>Matching Beaches</h2>`;
+        resultDiv.innerHTML += ``;
         matchedBeaches.forEach(beach => {
           resultDiv.innerHTML += `
             <div class="card">
