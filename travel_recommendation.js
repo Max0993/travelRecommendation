@@ -44,13 +44,15 @@ function searchCondition() {
       );
       if (matchedTemples.length > 0) {
         resultsFound = true;
-        resultDiv.innerHTML += `<h2>Matching Temples</h2>`;
+        resultDiv.innerHTML += ``;
         matchedTemples.forEach(temple => {
           resultDiv.innerHTML += `
             <div class="card">
-              <h4>${temple.name}</h4>
-              <img src="${temple.imageUrl}" alt="${temple.name}" style="max-width:200px;">
-              <p>${temple.description}</p>
+              <img src="${temple.imageUrl}" alt="${temple.name}" width="400" height="200"">
+                <div class="cardd">
+                    <h4>${temple.name}</h4>
+                    <p>${temple.description}</p>
+              </div>
             </div>
           `;
         });
@@ -66,9 +68,11 @@ function searchCondition() {
         matchedBeaches.forEach(beach => {
           resultDiv.innerHTML += `
             <div class="card">
-              <h4>${beach.name}</h4>
-              <img src="${beach.imageUrl}" alt="${beach.name}" style="max-width:200px;">
-              <p>${beach.description}</p>
+              <img src="${beach.imageUrl}" alt="${beach.name}" width="400" height="200"">
+                <div class="cardd">
+                    <h4>${beach.name}</h4>
+                    <p>${beach.description}</p>
+                </div>
             </div>
           `;
         });
