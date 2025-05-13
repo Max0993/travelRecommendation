@@ -260,7 +260,7 @@ h3 {
 /* Un peu de style de base à des fins de démonstration */
 
 #contactForm {
-  max-width: 430px;
+  max-width: 570px;
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.3);
   margin-right: 50px;
@@ -294,7 +294,7 @@ h3 {
 .team_1 {
 position: absolute;
   top: 42%;
-  left: 25%;
+  left: 15%;
   color: white;
   z-index: 10;
 }
@@ -304,4 +304,19 @@ position: absolute;
   text-transform: none;
 }
 
+.social-icons-column-0 {
+    position: absolute;
+    top: 60%;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 10;
+}
 
+.social-icons-column-0 a {
+    font-size: 24px;
+    color: whitesmoke;
+    margin: 01px;
+    text-decoration: none;
+  }
