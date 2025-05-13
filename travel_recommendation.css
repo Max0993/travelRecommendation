@@ -72,8 +72,6 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-
-
     background-image: url('tour_eiffel.jpeg'); 
     background-size: cover;
     background-position: center;
@@ -82,16 +80,12 @@ body, html {
 
 .intro {
 
-    position: absolute;
+position: absolute;
   top: 12%;
   left: 10%;
   color: white;
   z-index: 10;
 
-
-    /*margin-top: 12%;
-    color: white;
-    padding-left: 10%;*/
 }
 
 h2 {
@@ -139,6 +133,18 @@ button {
 
 
  /*for About_Us.html*/
+
+
+ body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('tour_eiffel.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .team {
     color: white;
     padding-left: 10%;
@@ -152,6 +158,12 @@ button {
     padding: 16px;
     width: 20%;
     border-radius: 4px;
+}
+
+
+.team-1 img {
+    background-color: rgb(6, 144, 120);
+    
 }
 
 .team-1 p {
@@ -170,6 +182,11 @@ button {
     border-radius: 4px;
 }
 
+.team-2 img {
+    background-color: rgb(6, 144, 120);
+    
+}
+
 .team-2 p {
     margin-bottom: 12px;
 }
@@ -185,6 +202,11 @@ button {
     border-radius: 4px;
 }
 
+.team-3 img {
+    background-color: rgb(6, 144, 120);
+    
+}
+
 .team-3 p {
     margin-bottom: 12px;
 }
@@ -193,6 +215,7 @@ button {
    
     width: 98%;
 }
+
 
 .intro2 {
     color: white;
@@ -233,29 +256,52 @@ h3 {
   text-decoration: none;
 }
 
-/*Contact.css*/
-/*body{
-    text-align: center;
-}*/
-
+/*. Contact.css*  /
 /* Un peu de style de base à des fins de démonstration */
+
 #contactForm {
-  max-width: 400px;
+  max-width: 430px;
   margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-right: 50px;
+  margin-top: 20%;
 }
+
+#contactForm label {
+    color: white;
+}
+
 #contactForm input,
 #contactForm textarea {
   width: 100%;
   margin-bottom: 15px;
   padding: 8px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.7);;
+  border-radius: 8px;
+  
 }
 #contactForm button {
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color:  rgb(6, 144, 120);
   color: white;
   border: none;
   cursor: pointer;
+  width: 95%;
+  margin-left: 10px;
 }
-#contactForm button:hover {
-  background-color: #0056b3;
+
+.team_1 {
+position: absolute;
+  top: 42%;
+  left: 25%;
+  color: white;
+  z-index: 10;
 }
+
+.team_1 p {
+  font-size: 15px;
+  text-transform: none;
+}
+
+
