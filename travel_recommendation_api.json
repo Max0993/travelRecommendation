@@ -59,7 +59,7 @@
       },
       {
         "id": 2,
-        "name": "Taj Mahal temple, India",
+        "name": "Taj Mahal temples, India",
         "imageUrl": "taj_mahal.png",
         "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
       }
@@ -69,13 +69,13 @@
       {
         "id": 1,
         "imageUrl": "bora.png",
-        "name": "Bora beach, French Polynesia",
+        "name": "Bora beaches, French Polynesia",
         "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
       },
       {
         "id": 2,
         "imageUrl": "copacabana.png",
-        "name": "Copacabana Beach, Brailia",
+        "name": "Copacabana Beaches, Brailia",
         "description": "A famous beach in Rio de\n Janeiro, Brazil, with a\n vibrant atmosphere and\n scenic views."
       }
     ]
