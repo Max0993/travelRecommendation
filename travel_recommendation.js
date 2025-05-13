@@ -87,3 +87,9 @@ function searchCondition() {
       resultDiv.innerHTML = 'An error occurred while fetching data.';
     });
 }
+const btnDelete = document.getElementById('btnDelete');
+    btnDelete.addEventListener('click', () => {
+  document.getElementById('conditionInput').value = '';
+  document.getElementById('result').innerHTML = '';
+});
+
