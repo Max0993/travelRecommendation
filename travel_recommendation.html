@@ -9,12 +9,18 @@
 
 
     <style>
-        #result {
-          display: flex;
+        #result {   
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            flex-direction: column;
+            direction: rtl;  /*Change to 'rtl' for right-to-left text*/
+
+          /*display: flex;
           flex-direction: column;
           gap: 10px;
           margin-top: 100px;
-          direction: rtl; /* Change to 'rtl' for right-to-left text */
+          direction: rtl;  Change to 'rtl' for right-to-left text */
         }
       
         .card {
@@ -40,9 +46,15 @@
         
 
         .card img {
-          width: 150%;
+    
+            width: 400px;
+            height: 200px;
+            object-fit: cover;
+
+
+          /*width: 150%;
           max-width: 400px;
-          display: block;
+          display: block;*/
          
         }
         

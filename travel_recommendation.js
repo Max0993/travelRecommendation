@@ -26,7 +26,7 @@ function searchCondition() {
           country.cities.forEach(city => {
             resultDiv.innerHTML += `
               <div class="card">
-                <img src="${city.imageUrl}" alt="${city.name}" style="max-width:400px;">
+                <img src="${city.imageUrl}" alt="${city.name}" width="400" height="200" />
                 <div class="cardd">
                     <h4>${city.name}</h4>
                     <p>${city.description}</p>
