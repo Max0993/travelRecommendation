@@ -122,7 +122,7 @@ button {
 
   .social-icons-column {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 20px;
     display: flex;
     flex-direction: column;
