@@ -24,12 +24,24 @@ function searchCondition() {
         matchedCountries.forEach(country => {
           
           country.cities.forEach(city => {
+
+            const cityTime = new Date().toLocaleTimeString('en-US', {
+                timeZone: city.timeZone,
+                hour12: true,
+                hour: 'numeric',
+                minute: 'numeric',
+                second: 'numeric'
+              });
+              
+
             resultDiv.innerHTML += `
               <div class="card">
-                <img src="${city.imageUrl}" alt="${city.name}" width="400" height="200" />
+              <img src="${city.imageUrl}" alt="${city.name}" width="400" height="200" />
                 <div class="cardd">
+                <em>Local Time: ${cityTime}</em></p>
                     <h4>${city.name}</h4>
                     <p>${city.description}</p>
+                    
                     <button>Visit</button>
                 </div>
               </div>
@@ -92,4 +104,3 @@ const btnDelete = document.getElementById('btnDelete');
   document.getElementById('conditionInput').value = '';
   document.getElementById('result').innerHTML = '';
 });
-
